@@ -28,7 +28,6 @@
 
 </head>
 <body class="home4-page">
-
     <video class="body-overlay" muted autoplay loop>
         <source src="assets/images/video4.mp4" type="video/mp4">
     </video>
@@ -45,6 +44,10 @@
     <div class="global-color">
         <span class="setting-toggle">
             <i class="las la-cog"></i>
+        </span>
+        <span>
+            <button class="audio" onclick="document.getElementsByTagName('audio')[0].play()"><img id="play" src="./assets/images/play.png" alt=""></button>
+            <i class="audio"></i>
         </span>
         <div class="inner">
             <div class="overlay"></div>
@@ -214,9 +217,11 @@
                 <a href="#"><i class="lab la-github"></i></a>
             </li>
         </ul>
+       
         <a href="#" class="theme-btn">
             <i class="las la-envelope"></i> Contatar
         </a>
+       
     </div>
 
     <main class="drake-main">
@@ -820,6 +825,9 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/ajax-form.js"></script>
     <script src="assets/js/color.js"></script>
+    <audio>
+        <source src="./assets/audio/lofi.mp3" type="audio/mp3">
+      </audio>
 
 </body>
 
